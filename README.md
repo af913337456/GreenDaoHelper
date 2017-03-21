@@ -1,15 +1,17 @@
 # GreenDaoHelper
 
 > 作者：林冠宏 / 指尖下的幽灵
+
 > 掘金：https://juejin.im/user/587f0dfe128fe100570ce2d8
+
 > 博客：http://www.cnblogs.com/linguanh/
+
 > GitHub ： https://github.com/af913337456/
 
-> 一直以来，我都是极其反感写重复的代码，所以喜欢利用面向对象的编程属性来自己造轮，或者是二次封装。
 
 ## 前序
-``GreenDao`` 相信很多 ``Android`` 开发者都熟悉，不知为何物的，这里不会再介绍它，建议自行百度，介绍文很多。
-前天我<strong>再次</strong>在项目中使用到 ``Sqlite`` 来做缓存，一般的代码是下面这样的。
+使用``GreenDao``建表的时候一般的代码是下面这样的。
+
 ```java
         Entity userInfo = schema.addEntity("UserEntity");
         userInfo.setTableName("UserInfo");
